@@ -25,3 +25,5 @@ require (
 	github.com/xmidt-org/wrp-go/v3 v3.0.2
 	go.opentelemetry.io/contrib/instrumentation/github.com/gorilla/mux/otelmux v0.19.0
 )
+
+replace github.com/xmidt-org/webpa-common/v2 v2.0.1 => ./webpa-common
